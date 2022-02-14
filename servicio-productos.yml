@@ -1,2 +1,4 @@
 server:
   port: 8001
+configuracion:
+  texto: Configurando entorno de desarrollo
