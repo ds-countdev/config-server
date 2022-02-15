@@ -2,3 +2,13 @@ server:
   port: 8001
 configuracion:
   texto: Configurando entorno de desarrollo
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  datasource:
+    url: jdbc:mysql://localhost:3306/productos
+    username: admin
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
